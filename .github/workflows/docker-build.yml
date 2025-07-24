@@ -23,5 +23,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKER_HUB_USERNAME }}/my-app:latest
-            ${{ secrets.DOCKER_HUB_USERNAME }}/my-app:${{ github.sha }}
+            ${{ secrets.DOCKER_HUB_USERNAME }}/tutorial-full:latest
+            ${{ secrets.DOCKER_HUB_USERNAME }}/tutorial-full:${{ github.sha }}
